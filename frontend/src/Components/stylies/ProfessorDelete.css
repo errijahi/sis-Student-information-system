@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #323232;
+  color: white;
+}
+
+.Linkc {
+  text-decoration: none;
+  align-items: center;
+  border: 0;
+  background: none;
+  display: inline-block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.5s;
+  cursor: pointer;
+  font-size: 12px;
+  display: inline-block;
+}
+
+.box3 {
+  width: 350px;
+  padding: 40px;
+  position: fixed;
+  margin-top: 12em;
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: #191919;
+  text-align: center;
+  border-radius: 24px;
+}
+.box h1 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 1000;
+}
+.box h2 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 1000;
+}
+
+.box3 input[type="text"] {
+  color: white;
+  border: 0;
+  background: none;
+  margin: 4px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 4px 1px;
+  width: 200px;
+  outline: none;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+.box3 input[type="text"]:focus,
+.box3 input[type="password"]:focus {
+  border-color: #2ecc71;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #b5b5b5;
+  /*opacity: 1; /* Firefox */
+}
+
+.Linkc:hover {
+  background: #2ecc71;
+}
+
+.inputd {
+  align-items: center;
+  border: 0;
+  background: none;
+  display: inline-block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #ff4c4c;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.inputd:hover {
+  background: #ff4c4c;
+}
+
+@media screen and (max-width: 450px) {
+  .box3 {
+    margin-top: 0em;
+    width: 17em;
+  }
+  .modal-wrapper {
+    align-items: center;
+    height: 100%;
+  }
+}
