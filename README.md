@@ -3,3 +3,7 @@ Also to be able to register and login with different access levels.
 
 Vist project:
 http://34.66.35.161/
+
+Demo:
+Username: mis
+pass:mis
